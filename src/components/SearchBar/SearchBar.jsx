@@ -27,7 +27,7 @@ export default function SearchBar({ onSearch }) {
             className={css.input}
           ></Field>
           <button type="submit" className={css.button}>
-          <LuFolderSearch />
+            <LuFolderSearch />
           </button>
         </Form>
       </Formik>

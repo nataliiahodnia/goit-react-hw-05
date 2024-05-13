@@ -3,14 +3,11 @@
   font-weight: 100;
   color: #ff4081;
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
   position: relative;
-  transition: color 0.3s ease, transform 0.3s ease; 
+  transition: color 0.3s ease, transform 0.3s ease;
   margin-top: 40px;
   letter-spacing: 3px;
   text-align: center;
 }
-
-
-

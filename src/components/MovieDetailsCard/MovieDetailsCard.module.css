@@ -1,4 +1,3 @@
-/* ваш_файл_стилів.module.css */
 
 .container {
   display: flex;
@@ -72,6 +71,6 @@
     transform: rotate(5deg);
   }
   100% {
-    transform: rotate(-5deg); 
-}
+    transform: rotate(-5deg);
+  }
 }

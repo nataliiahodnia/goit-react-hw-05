@@ -6,7 +6,7 @@ ul {
   margin: 80px auto;
   padding: 0;
   letter-spacing: 4px;
-  animation: floating 3s infinite alternate; /* Добавляем анимацию */
+  animation: floating 3s infinite alternate;
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -19,8 +19,7 @@ ul {
     transform: translateY(-5px) translateX(5px);
   }
   100% {
-    transform: translateY(5px) translateX(-5px); /* Движение вниз и влево */
-  }
+    transform: translateY(5px) translateX(-5px);
 }
 
 
@@ -37,7 +36,6 @@ ul {
   display: block;
   padding: 10px;
   border-radius: 20px;
-  /* background-color: #ff6bae; */
   border: 1px solid #ff4081;
 
   color: #ffffff;
@@ -47,10 +45,10 @@ ul {
 }
 
 .link:hover {
-  background-color: #ff6bae; /* Изменение цвета фона при наведении */
-  box-shadow: 0px 3px 15px #ff4081; /* Тень при наведении */
+  background-color: #ff6bae;
+  box-shadow: 0px 3px 15px #ff4081;
   color: #ffffff;
-  transform: scale(1.1); /* Увеличение размера при наведении */
+  transform: scale(1.1);
 }
 
 
