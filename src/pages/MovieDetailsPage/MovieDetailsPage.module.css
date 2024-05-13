@@ -49,8 +49,9 @@ h2 {
   font-size: 18px;
   transition: color 0.3s ease;
 }
-  ul {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-  }
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}

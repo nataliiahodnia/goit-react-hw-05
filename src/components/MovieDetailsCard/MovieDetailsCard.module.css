@@ -1,43 +1,77 @@
+/* ваш_файл_стилів.module.css */
+
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.containerImg {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.containerCard {
+  flex: 2;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
 .link {
-     font-size: 14px;
-     display: inline-flex;
-     align-items: center;
-     border: 1px solid black;
-     padding: 3px 5px;
-     margin-bottom: 5px;
-     border-radius: 5px;
-   }
-   .textLink {
-     margin-left: 5px;
-   }
-   
-   .container {
-     display: flex;
-     border-bottom: 1px solid black;
-     padding-bottom: 10px;
-     margin-bottom: 10px;
-   }
-   
-   .containerImg {
-     height: 100%;
-     width: 500px;
-   }
-   
-   .img {
-     width: 500px;
-   }
-   
-   .containerCard {
-     height: 100%;
-     width: 100%;
-     padding: 10px;
-   }
-   
-   .title {
-     margin-bottom: 10px;
-   }
-   
-   .text {
-     margin-bottom: 10px;
-   }
-   
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: #ff6bae;
+  color: white;
+  animation: rotateAnimation 0.3s ease;
+}
+
+.link:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(197, 98, 146, 0.3);
+}
+
+.textLink {
+  margin-left: 8px;
+}
+
+.textLink {
+  padding-left: 20px;
+  margin: 0;
+  width: 100px;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg); 
+}
+}
