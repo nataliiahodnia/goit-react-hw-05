@@ -1,6 +1,6 @@
 import css from "./MovieDetailsCard.module.css";
 import { Link } from "react-router-dom";
-import { FaLongArrowAltLeft } from "react-icons/fa";
+import { IoChevronBackCircle } from "react-icons/io5";
 import { useLocation } from "react-router-dom";
 import { useRef } from "react";
 
@@ -16,7 +16,7 @@ export default function MovieDetailsCard({
   return (
     <div>
       <Link className={css.link} to={backLinkURL.current}>
-        <FaLongArrowAltLeft />
+        <IoChevronBackCircle />
         <p className={css.textLink}>Go back</p>
       </Link>
       <div className={css.container}>

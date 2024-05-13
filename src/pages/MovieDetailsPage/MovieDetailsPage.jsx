@@ -7,6 +7,8 @@ import Loader from "../../components/Loader/Loader";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import MovieDetailsCard from "../../components/MovieDetailsCard/MovieDetailsCard";
 import { Suspense } from "react";
+import { FaUserAstronaut } from "react-icons/fa6";
+import { MdReviews } from "react-icons/md";
 
 export default function MovieDetailsPage() {
   const { moviesId } = useParams();
@@ -43,12 +45,12 @@ export default function MovieDetailsPage() {
       <ul className={css.list}>
         <li className={css.item}>
           <Link to="cast" className={css.link}>
-            Cast
+            Cast <FaUserAstronaut />
           </Link>
         </li>
         <li className={css.item}>
           <Link to="reviews" className={css.link}>
-            Reviews
+            Reviews <MdReviews />
           </Link>
         </li>
       </ul>
